@@ -6,36 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
     <style>
-        body{
-            font-family: Roboto; 
-            background-color: #0c0c0c; 
+        body {
+            font-family: Roboto;
+            background-color: #0c0c0c;
             color: #ccc;
             margin: 0;
         }
-        main{
-            width: 80%; 
-            margin: auto; 
+
+        main {
+            width: 80%;
+            margin: auto;
         }
-        ul{
+
+        ul {
             padding: 0;
             margin: 0;
             list-style-type: none;
             overflow: hidden;
             background-color: #333;
         }
-        ul li{
+
+        ul li {
             float: left;
         }
-        li a{
+
+        li a {
             display: block;
             text-decoration: none;
             color: white;
             text-align: center;
             padding: 14px 16px;
         }
-        nav, header{
+
+        nav,
+        header {
             margin: 0;
             padding: 0;
+        }
+
+        article h1 {
+            font-size: x-large;
+            color: #fff;
+        }
+
+        article p {
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            padding: 10px;
         }
     </style>
     <title>|DevNomade|</title>
@@ -53,33 +71,63 @@
         </nav>
     </header>
     <main>
+        <table>
+            <tr>
+                <td style="width: 70%;">
+                    <article>
+                        <h1>Descrevendo o Estilo de Vida</h1>
+                        <p>
+                            Um nômade digital é um indivíduo que adota um estilo de vida flexível e móvel, utilizando a
+                            tecnologia para
+                            trabalhar remotamente, geralmente através da internet, enquanto viaja e explora diferentes
+                            locais ao redor
+                            do
+                            mundo. Eles buscam independência geográfica, aproveitando a liberdade de escolher onde e
+                            quando trabalhar,
+                            muitas vezes optando por ambientes inspiradores ou culturas diversas, ao mesmo tempo em que
+                            mantêm suas
+                            atividades profissionais de forma virtual e conectada.
+                        </p>
+                        <p>
+                            Os nômades digitais podem desempenhar uma variedade de ocupações, como freelancers,
+                            empreendedores,
+                            profissionais autônomos, blogueiros, designers, programadores, consultores e muitos outros.
+                            Eles utilizam
+                            ferramentas de comunicação online, como e-mail, videoconferências, mensagens instantâneas e
+                            plataformas de
+                            colaboração, para se conectar com clientes, colegas de trabalho e parceiros comerciais.
+                        </p>
+                        <p>
+                            Esse estilo de vida proporciona a oportunidade de explorar diferentes culturas, conhecer
+                            novas pessoas,
+                            experimentar diferentes ambientes e, ao mesmo tempo, manter uma fonte de renda. No entanto,
+                            também apresenta
+                            desafios, como a necessidade de gerenciar fusos horários, manter a produtividade enquanto se
+                            desloca e lidar
+                            com
+                            questões logísticas, como a busca por acomodação temporária.
+
+                            O termo "nômade digital" ganhou popularidade nos últimos anos devido ao aumento da
+                            conectividade global e à
+                            crescente aceitação do trabalho remoto como opção viável em muitas indústrias.
+                        </p>
+                    </article>
+                </td>
+                <td>
+                    <div class="fb-page" data-href="https://www.facebook.com/etecsmc" data-tabs="timeline" data-width=""
+                        data-height="" data-small-header="false" data-adapt-container-width="true"
+                        data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+                    </div>
+                    <div id="fb-root"></div>
+                    <script async defer crossorigin="anonymous"
+                        src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v17.0" nonce="5pHLrMir"></script>
+                </td>
+            </tr>
+        </table>
         <!--Area de Texto Superior do Site-->
         <div class="textosParagrafos">
-            <h1>Descrevendo o Estilo de Vida</h1>
-            <p>
-                Um nômade digital é um indivíduo que adota um estilo de vida flexível e móvel, utilizando a tecnologia para
-                trabalhar remotamente, geralmente através da internet, enquanto viaja e explora diferentes locais ao redor
-                do
-                mundo. Eles buscam independência geográfica, aproveitando a liberdade de escolher onde e quando trabalhar,
-                muitas vezes optando por ambientes inspiradores ou culturas diversas, ao mesmo tempo em que mantêm suas
-                atividades profissionais de forma virtual e conectada.
-            </p>
-            <p>
-                Os nômades digitais podem desempenhar uma variedade de ocupações, como freelancers, empreendedores,
-                profissionais autônomos, blogueiros, designers, programadores, consultores e muitos outros. Eles utilizam
-                ferramentas de comunicação online, como e-mail, videoconferências, mensagens instantâneas e plataformas de
-                colaboração, para se conectar com clientes, colegas de trabalho e parceiros comerciais.
-            </p>
-            <p>
-                Esse estilo de vida proporciona a oportunidade de explorar diferentes culturas, conhecer novas pessoas,
-                experimentar diferentes ambientes e, ao mesmo tempo, manter uma fonte de renda. No entanto, também apresenta
-                desafios, como a necessidade de gerenciar fusos horários, manter a produtividade enquanto se desloca e lidar
-                com
-                questões logísticas, como a busca por acomodação temporária.
-    
-                O termo "nômade digital" ganhou popularidade nos últimos anos devido ao aumento da conectividade global e à
-                crescente aceitação do trabalho remoto como opção viável em muitas indústrias.
-            </p>
         </div>
         <!--Area das Listagens-->
         <div class="textosListas">
@@ -87,14 +135,17 @@
             <ol>
                 <li>
                     <strong>Autoavaliação e Objetivos:</strong>
-                    Defina seus objetivos claros para se tornar um nômade digital. Pergunte-se por que você quer adotar esse
-                    estilo de vida, quais são suas metas profissionais e pessoais, e como você pretende equilibrar trabalho
+                    Defina seus objetivos claros para se tornar um nômade digital. Pergunte-se por que você quer adotar
+                    esse
+                    estilo de vida, quais são suas metas profissionais e pessoais, e como você pretende equilibrar
+                    trabalho
                     e
                     vida enquanto viaja.
                 </li>
                 <li>
                     <strong>Habilidades e Trabalho Remoto:</strong>
-                    Avalie suas habilidades e experiência profissional. Certifique-se de que suas competências são adequadas
+                    Avalie suas habilidades e experiência profissional. Certifique-se de que suas competências são
+                    adequadas
                     para trabalhar remotamente. Explore oportunidades de trabalho freelance, empregos remotos ou
                     empreendedorismo online.
                 </li>
@@ -102,7 +153,8 @@
                     <strong>Preparação Financeira:</strong>
                     Economize o suficiente para sustentar seu estilo de vida enquanto você estiver se estabelecendo como
                     nômade
-                    digital. Considere seus custos de vida, despesas de viagem, hospedagem e emergências. Tenha uma reserva
+                    digital. Considere seus custos de vida, despesas de viagem, hospedagem e emergências. Tenha uma
+                    reserva
                     financeira sólida.
                 </li>
                 <li>
@@ -115,7 +167,8 @@
                 </li>
                 <li>
                     <strong>Equipamentos e Tecnologia:</strong>
-                    Prepare seu equipamento de trabalho, como laptop, dispositivos móveis e acessórios. Certifique-se de ter
+                    Prepare seu equipamento de trabalho, como laptop, dispositivos móveis e acessórios. Certifique-se de
+                    ter
                     acesso confiável à internet e considere a segurança das suas informações online.
                 </li>
                 <li>
@@ -126,19 +179,22 @@
                 </li>
                 <li>
                     <strong>Aspectos Legais e Administrativos:</strong>
-                    Verifique as questões legais, como visto de trabalho, regulamentações fiscais e requisitos de seguro de
+                    Verifique as questões legais, como visto de trabalho, regulamentações fiscais e requisitos de seguro
+                    de
                     saúde, de acordo com o país em que você planeja passar mais tempo.
                 </li>
                 <li>
                     <strong>Transição Gradual:</strong>
                     Se possível, faça uma transição gradual para o estilo de vida nômade digital. Comece trabalhando
                     remotamente
-                    algumas vezes por semana, experimentando diferentes destinos por curtos períodos antes de se comprometer
+                    algumas vezes por semana, experimentando diferentes destinos por curtos períodos antes de se
+                    comprometer
                     totalmente.
                 </li>
                 <li>
                     <strong>Rede e Comunidade:</strong>
-                    Conecte-se com outros nômades digitais, participe de grupos online, redes sociais ou comunidades locais
+                    Conecte-se com outros nômades digitais, participe de grupos online, redes sociais ou comunidades
+                    locais
                     para
                     compartilhar experiências, dicas e informações valiosas.
                 </li>
@@ -155,16 +211,22 @@
             <h2>10 sinais de que você nasceu para o nomadismo digital</h2>
             <blockquote cite="https://nomadesdigitais.com/10-sinais-de-que-voce-nasceu-para-o-nomadismo-digital/">
                 <q>
-                    O nomadismo digital surge como uma alternativa para indivíduos que abraçam sua natureza "fora da caixa"
+                    O nomadismo digital surge como uma alternativa para indivíduos que abraçam sua natureza "fora da
+                    caixa"
                     e
-                    valorizam a flexibilidade sobre as rotinas rígidas. Esses nômades são adeptos da adaptação às mudanças,
+                    valorizam a flexibilidade sobre as rotinas rígidas. Esses nômades são adeptos da adaptação às
+                    mudanças,
                     enxergam
-                    a beleza na solitude e desafiam conceitos convencionais de trabalho e segurança, preferindo construir um
+                    a beleza na solitude e desafiam conceitos convencionais de trabalho e segurança, preferindo
+                    construir um
                     sistema
-                    próprio. Sua paixão por viagens reflete um espírito desbravador, enquanto sua recusa em se encaixar em
+                    próprio. Sua paixão por viagens reflete um espírito desbravador, enquanto sua recusa em se encaixar
+                    em
                     padrões
-                    tradicionais e disposição para enfrentar erros demonstram a busca por uma carreira de sucesso fundada na
-                    autenticidade. O nomadismo digital é, assim, uma expressão dessa liberdade de escolha e visão de mundo
+                    tradicionais e disposição para enfrentar erros demonstram a busca por uma carreira de sucesso
+                    fundada na
+                    autenticidade. O nomadismo digital é, assim, uma expressão dessa liberdade de escolha e visão de
+                    mundo
                     distinta.
                 </q>
                 <p>
@@ -187,11 +249,13 @@
                         Uma das primeiras áreas que vem à mente quando falamos de trabalho remoto é o marketing digital.
                         Isso
                         não é uma coincidência, pois toda a sua cadeia produtiva possibilita ser executada a distância,
-                        inclusive as reuniões, que podem ser feitas online. Então, se planeja trabalhar com conteúdo, mídia,
-                        SEO, inbound marketing e outros campos, você fique tranquilo porque isso casa perfeitamente com o
+                        inclusive as reuniões, que podem ser feitas online. Então, se planeja trabalhar com conteúdo,
+                        mídia,
+                        SEO, inbound marketing e outros campos, você fique tranquilo porque isso casa perfeitamente com
+                        o
                         dia a
                         dia de um nômade digital.
-    
+
                         A flexibilidade de horários e os diferentes fusos horários favorecem a expansão do trabalho até
                         mesmo
                         internacionalmente.
@@ -199,16 +263,21 @@
                     <td>
                         Não é nenhuma novidade que todos os setores ligados à computação e à tecnologia bombam no mundo
                         todo,
-                        mas é possível trabalhar de qualquer lugar? A resposta é sim. Os desenvolvedores são profissionais
+                        mas é possível trabalhar de qualquer lugar? A resposta é sim. Os desenvolvedores são
+                        profissionais
                         muito
-                        requisitados no mercado, principalmente pelas gigantes da tecnologia, como Google e Mozilla. Esse
+                        requisitados no mercado, principalmente pelas gigantes da tecnologia, como Google e Mozilla.
+                        Esse
                         perfil
-                        de organização desconhece as barreiras geográficas. De onde você estiver, há a chance de fazer o seu
+                        de organização desconhece as barreiras geográficas. De onde você estiver, há a chance de fazer o
+                        seu
                         trabalho.
-    
-                        É comum até mesmo que os desenvolvedores façam viagens a países diferentes para expansão de soluções
+
+                        É comum até mesmo que os desenvolvedores façam viagens a países diferentes para expansão de
+                        soluções
                         e
-                        trabalhos diversos. Tudo bancado pelo empregador, ou seja, mais uma oportunidade interessante para
+                        trabalhos diversos. Tudo bancado pelo empregador, ou seja, mais uma oportunidade interessante
+                        para
                         os
                         nômades digitais.
                     </td>
@@ -220,23 +289,28 @@
                 <tr>
                     <td>
                         O caminho já estava aberto para a atuação de professores de idiomas antes da pandemia, e, com a
-                        necessidade do distanciamento social, as aulas online ganharam enorme impulso e muitos adeptos. É
+                        necessidade do distanciamento social, as aulas online ganharam enorme impulso e muitos adeptos.
+                        É
                         uma
-                        ótima oportunidade para ensino dos idiomas que você domina e está apto a ensinar, além do próprio
+                        ótima oportunidade para ensino dos idiomas que você domina e está apto a ensinar, além do
+                        próprio
                         português, que tem sido demandado por empresas multinacionais e instituições governamentais em
                         diversos
                         países.
-    
-                        Outra possibilidade é a tradução, que também tem alta demanda em campos como educação, editoração,
+
+                        Outra possibilidade é a tradução, que também tem alta demanda em campos como educação,
+                        editoração,
                         saúde, entretenimento e marketing, dentre outros.
                     </td>
                     <td>
-                        Há alguns anos, as grandes multinacionais começaram a fazer parte do recrutamento e da seleção de
+                        Há alguns anos, as grandes multinacionais começaram a fazer parte do recrutamento e da seleção
+                        de
                         talentos de maneira remota, visto que dessa forma era possível otimizar tempo e recursos
                         financeiros. A
                         transformação digital nas empresas popularizou as entrevistas online, os contatos virtuais e as
                         reuniões
-                        via aplicativos. E, com a pandemia, os profissionais responsáveis pelo recrutamento passaram a atuar
+                        via aplicativos. E, com a pandemia, os profissionais responsáveis pelo recrutamento passaram a
+                        atuar
                         largamente a distância.
                     </td>
                 </tr>
@@ -246,32 +320,41 @@
                 </tr>
                 <tr>
                     <td>
-                        Tanto a consultoria quanto a assessoria estratégica podem ser realizadas por profissionais nômades
+                        Tanto a consultoria quanto a assessoria estratégica podem ser realizadas por profissionais
+                        nômades
                         digitais em suas áreas de formação e domínio. Os estágios do trabalho, que envolvem sobretudo
                         análise e
-                        proposição de soluções, têm como base o conhecimento e a qualidade do consultor e o contato com a
+                        proposição de soluções, têm como base o conhecimento e a qualidade do consultor e o contato com
+                        a
                         instituição ou a pessoa contratante. A qualificação profissional não depende de localização e do
-                        contato; bem, o contato com a tecnologia está aí para isso, e ferramentas para reuniões online é o
+                        contato; bem, o contato com a tecnologia está aí para isso, e ferramentas para reuniões online é
+                        o
                         que
                         não falta.
-    
+
                         Profissionais de recrutamento e seleção
-                        Há alguns anos, as grandes multinacionais começaram a fazer parte do recrutamento e da seleção de
+                        Há alguns anos, as grandes multinacionais começaram a fazer parte do recrutamento e da seleção
+                        de
                         talentos de maneira remota, visto que dessa forma era possível otimizar tempo e recursos
                         financeiros. A
                         transformação digital nas empresas popularizou as entrevistas online, os contatos virtuais e as
                         reuniões
-                        via aplicativos. E, com a pandemia, os profissionais responsáveis pelo recrutamento passaram a atuar
+                        via aplicativos. E, com a pandemia, os profissionais responsáveis pelo recrutamento passaram a
+                        atuar
                         largamente a distância.
                     </td>
                     <td>
-                        Esta é uma das áreas da TI mais bem pagas no mercado internacional e com uma excelente demanda em
-                        empresas de portes e segmentos diversificados. A possibilidade do trabalho remoto aumenta bastante a
-                        atuação dos programadores, o faturamento e a segurança para quem trabalha nesse campo. E assim como
+                        Esta é uma das áreas da TI mais bem pagas no mercado internacional e com uma excelente demanda
+                        em
+                        empresas de portes e segmentos diversificados. A possibilidade do trabalho remoto aumenta
+                        bastante a
+                        atuação dos programadores, o faturamento e a segurança para quem trabalha nesse campo. E assim
+                        como
                         os
                         desenvolvedores web, os programadores também contam com suporte das grandes empresas de projeção
                         global,
-                        o que é ótimo tanto para quem deseja uma carreira internacional quanto para quem está pensando em
+                        o que é ótimo tanto para quem deseja uma carreira internacional quanto para quem está pensando
+                        em
                         ser um
                         nômade digital.
                     </td>
@@ -282,11 +365,13 @@
                 </tr>
                 <tr>
                     <td>
-                        O mercado financeiro também não fica de fora da lista dos setores que têm tudo a ver com esse estilo
+                        O mercado financeiro também não fica de fora da lista dos setores que têm tudo a ver com esse
+                        estilo
                         de
                         vida. As operações na Bolsa de Valores e nos fundos de investimento funcionam online, você não
                         precisa
-                        estar presencialmente em um local específico. Então, se seu campo é o dos investimentos, pode viajar
+                        estar presencialmente em um local específico. Então, se seu campo é o dos investimentos, pode
+                        viajar
                         e
                         trabalhar com tranquilidade. E, conforme for seu fluxo de trabalho, atuar também como investidor
                         pode
@@ -297,7 +382,8 @@
                         perfeitamente a qualquer distância. Você precisa ajustar os recursos necessários para trabalhar,
                         como
                         softwares e equipamentos, mas isso é simples de resolver. E, como a criatividade e o pensamento
-                        estratégico acompanham o profissional aonde quer que ele vá, está aí mais um segmento que se alinha
+                        estratégico acompanham o profissional aonde quer que ele vá, está aí mais um segmento que se
+                        alinha
                         superbem com aqueles que pretendem ser nômades digitais.
                     </td>
                 </tr>
@@ -307,7 +393,8 @@
                 </tr>
                 <tr>
                     <td>
-                        Será que o trabalho de um arquiteto pode ser feito remotamente? Sim, é possível fazer a maior parte
+                        Será que o trabalho de um arquiteto pode ser feito remotamente? Sim, é possível fazer a maior
+                        parte
                         das
                         atribuições do profissional. Como todos os demais segmentos, antes de tudo é preciso contar com
                         organização pessoal, equipamentos adequados e um ótimo relacionamento com os clientes e os
@@ -318,10 +405,12 @@
                     </td>
                     <td>
                         Outra grande oportunidade que o avanço da internet e suas plataformas trouxeram é a criação de
-                        infoprodutos. Estes incluem cursos, encontros, clubes de leitura e diversos outros conhecimentos que
+                        infoprodutos. Estes incluem cursos, encontros, clubes de leitura e diversos outros conhecimentos
+                        que
                         podem se transformar em um curso online. Você tem a possibilidade de criá-los e vendê-los pela
                         internet
-                        e assim gerar uma renda extra para custear sua jornada de nômade digital. Ah! E essa atividade pode
+                        e assim gerar uma renda extra para custear sua jornada de nômade digital. Ah! E essa atividade
+                        pode
                         ser
                         exercida por profissionais de múltiplas áreas.
                     </td>
@@ -361,9 +450,51 @@
                 </tr>
             </table>
         </div>
+        <div class="areaDev">
+            <table style="margin: auto;">
+                <tr>
+                    <td>
+                        Logo ETEC
+                    </td>
+                    <td>
+                        Desenvolvido pelo time de tecnologia da ETEC Sylvio de Matos Carvalho 1H3B
+                    </td>
+                    <td>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.534292503982!2d-48.37013932374386!3d-21.604094292618548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b91fdad3009309%3A0x4d1aebb24d093e4b!2sEscola%20T%C3%A9cnica%20Estadual%20Sylvio%20de%20Mattos%20Carvalho%20-%20Mat%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1694042399324!5m2!1spt-BR!2sbr"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="imgPinterest">
+            <table style="margin: auto;">
+                <tr>
+                    <td>
+                        <a data-pin-do="embedPin" href="https://br.pinterest.com/pin/956522408330693547"
+                            data-pin-width="large"></a>                    </td>
+                    <td>
+                        <a data-pin-do="embedPin" href="https://br.pinterest.com/pin/387661480436307262"
+                            data-pin-width="large"></a>             
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a data-pin-do="embedPin" href="https://br.pinterest.com/pin/672021575676737237"
+                            data-pin-width="large"></a>                   
+                    </td>
+                    <td>
+                        <a data-pin-do="embedPin" href="https://br.pinterest.com/pin/122230577379208460"
+                            data-pin-width="large"></a>                    
+                    </td>
+                </tr>
+            </table>
+        </div>
     </main>
     <footer>
-    </footer>   
+        <script async type="text/javascript" src="https://assets.pinterest.com/js/pinit.js"></script>
+    </footer>
 </body>
 
 </html>
